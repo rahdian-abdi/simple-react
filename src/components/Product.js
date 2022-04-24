@@ -29,7 +29,7 @@ const Product = ({ prod }) => {
         <h4>{prod.name}</h4>
         <p>{prod.price}</p>
         <button onClick={productDetailHandler}>See Detail</button>
-        <div></div>
+        <br />
         <button onClick={buttonErrorHandler}>Undirected Path</button>
       </div>
     </React.Fragment>
